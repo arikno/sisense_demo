@@ -83,6 +83,33 @@
                 "table": "DimCustomer",
                 "title": "StoreID"
             }
+        },
+        {
+            "instanceid": "5BEFE-F312-F0",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "TerritoryID",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetailLQAaarik",
+                    "fullname": "localhost/Sample Retail-arik",
+                    "id": "localhost_aSampleIAAaRetailLQAaarik",
+                    "live": false,
+                    "title": "Sample Retail-arik"
+                },
+                "datatype": "numeric",
+                "dim": "[DimCustomers_old.TerritoryID]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "locale": "en-us",
+                "table": "DimCustomers_old",
+                "title": "TerritoryID"
+            }
         }
     ]
 }
