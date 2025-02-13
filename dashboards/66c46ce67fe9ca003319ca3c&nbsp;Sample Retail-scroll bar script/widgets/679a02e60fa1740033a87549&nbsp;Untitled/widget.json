@@ -1,0 +1,111 @@
+{
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "66c46ce67fe9ca003319ca3c",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetailLQAaarik",
+        "fullname": "LocalHost/Sample Retail-arik",
+        "id": "aLOCALHOST_aSAMPLEIAAaRETAILLQAaARIK",
+        "title": "Sample Retail-arik"
+    },
+    "desc": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "format": {
+                            "members": {
+                            }
+                        },
+                        "instanceid": "6D1A6-5126-AD",
+                        "jaql": {
+                            "column": "Region",
+                            "datatype": "text",
+                            "dim": "[DimCountries.Region]",
+                            "merged": true,
+                            "table": "DimCountries",
+                            "title": "Region"
+                        }
+                    }
+                ],
+                "name": "categories"
+            },
+            {
+                "items": [
+                    {
+                        "instanceid": "DA689-A4F3-5A",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "OrderRevenue",
+                            "datatype": "numeric",
+                            "dim": "[Fact_Sale_orders.OrderRevenue]",
+                            "table": "Fact_Sale_orders",
+                            "title": "Total OrderRevenue"
+                        }
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "679a02e60fa1740033a87549",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "select",
+        "selector": false
+    },
+    "style": {
+        "direction": "regular",
+        "labels": {
+            "categories": true,
+            "decimals": false,
+            "enabled": true,
+            "percent": true,
+            "value": true
+        },
+        "legend": {
+            "enabled": true,
+            "position": "bottom"
+        },
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "region",
+                    "plural": "Region",
+                    "singular": "Region",
+                    "title": "Region"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "size": "narrow",
+        "type": "regular"
+    },
+    "subtype": "chart/funnel",
+    "title": "",
+    "type": "chart/funnel"
+}

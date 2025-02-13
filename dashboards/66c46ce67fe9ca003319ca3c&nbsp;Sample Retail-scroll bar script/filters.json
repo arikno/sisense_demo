@@ -1,0 +1,88 @@
+{
+    "filters": [
+        {
+            "instanceid": "6C345-99A0-87",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "TeamID",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetailLQAaarik",
+                    "fullname": "localhost/Sample Retail-arik",
+                    "id": "localhost_aSampleIAAaRetailLQAaarik",
+                    "live": false,
+                    "title": "Sample Retail-arik"
+                },
+                "datatype": "numeric",
+                "dim": "[DimEmployees.TeamID]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "locale": "en-us",
+                "table": "DimEmployees",
+                "title": "TeamID"
+            }
+        },
+        {
+            "disabled": false,
+            "instanceid": "44C28-2286-65",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "CountryName",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetailLQAaarik",
+                    "fullname": "localhost/Sample Retail-arik",
+                    "id": "localhost_aSampleIAAaRetailLQAaarik",
+                    "live": false,
+                    "title": "Sample Retail-arik"
+                },
+                "datatype": "text",
+                "dim": "[DimCountries.CountryName]",
+                "filter": {
+                    "explicit": true,
+                    "members": [
+                        "Portugal"
+                    ],
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "merged": true,
+                "table": "DimCountries",
+                "title": "CountryName"
+            }
+        },
+        {
+            "instanceid": "FAAC9-C2D5-90",
+            "isCascading": false,
+            "jaql": {
+                "collapsed": true,
+                "column": "StoreID",
+                "datasource": {
+                    "address": "LocalHost",
+                    "database": "aSampleIAAaRetailLQAaarik",
+                    "fullname": "localhost/Sample Retail-arik",
+                    "id": "localhost_aSampleIAAaRetailLQAaarik",
+                    "live": false,
+                    "title": "Sample Retail-arik"
+                },
+                "datatype": "numeric",
+                "dim": "[DimCustomer.StoreID]",
+                "filter": {
+                    "all": true,
+                    "explicit": false,
+                    "multiSelection": true
+                },
+                "isDashboardFilter": true,
+                "locale": "en-us",
+                "table": "DimCustomer",
+                "title": "StoreID"
+            }
+        }
+    ]
+}

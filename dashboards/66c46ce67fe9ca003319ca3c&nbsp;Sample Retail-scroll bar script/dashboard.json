@@ -1,0 +1,69 @@
+{
+    "allowChangeSubscription": false,
+    "autoUpdateOnFiltersChange": true,
+    "dataExploration": false,
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetailLQAaarik",
+        "fullname": "localhost/Sample Retail-arik",
+        "id": "localhost_aSampleIAAaRetailLQAaarik",
+        "live": false,
+        "title": "Sample Retail-arik"
+    },
+    "desc": "",
+    "filterRelations": [
+    ],
+    "filters": "./filters.json",
+    "hierarchies": [
+    ],
+    "layout": "./layout.json",
+    "oid": "66c46ce67fe9ca003319ca3c",
+    "script": "./script.js",
+    "settings": {
+        "autoUpdateOnFiltersChange": true,
+        "useAcceleration": false
+    },
+    "style": {
+        "palette": {
+            "colors": [
+                "#00cee6",
+                "#9b9bd7",
+                "#6EDA55",
+                "#fc7570",
+                "#fbb755",
+                "#218A8C"
+            ],
+            "name": "Vivid"
+        }
+    },
+    "subscription": {
+        "active": false,
+        "context": {
+            "dashboardid": "66c46ce67fe9ca003319ca3c"
+        },
+        "emailSettings": {
+            "isEmail": true,
+            "isPdf": false
+        },
+        "executionPerDay": 1,
+        "isDataChange": true,
+        "reportType": {
+            "inline": true
+        },
+        "schedule": "* * * * * *",
+        "startAt": "2025-01-27",
+        "subscribe": false,
+        "timezone": -120,
+        "type": "onUpdate",
+        "tzName": "Asia/Jerusalem"
+    },
+    "title": "Sample Retail-scroll bar script",
+    "useAcceleration": false,
+    "widgets": [
+        "./widgets/66c46ce67fe9ca003319ca3d/widget.json",
+        "./widgets/6786257ffd1a8e00325f9b72/widget.json",
+        "./widgets/678e08497c8930003363a015/widget.json",
+        "./widgets/679a02e60fa1740033a87549/widget.json",
+        "./widgets/679a02e90fa1740033a8754b/widget.json"
+    ]
+}
