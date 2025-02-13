@@ -1,0 +1,213 @@
+{
+    "_toDisableOptionsList": {
+        "widgets": {
+            "duplicate": false
+        }
+    },
+    "dashboardid": "66c46ce67fe9ca003319ca3c",
+    "datasource": {
+        "address": "LocalHost",
+        "database": "aSampleIAAaRetailLQAaarik",
+        "fullname": "LocalHost/Sample Retail-arik",
+        "id": "aLOCALHOST_aSAMPLEIAAaRETAILLQAaARIK",
+        "title": "Sample Retail-arik"
+    },
+    "desc": null,
+    "metadata": {
+        "ignore": {
+            "all": false,
+            "dimensions": [
+            ],
+            "ids": [
+            ]
+        },
+        "panels": [
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[DimCountries.CountryName]",
+                            "index": 0
+                        },
+                        "instanceid": "58700-E567-EC",
+                        "jaql": {
+                            "column": "CountryName",
+                            "datatype": "text",
+                            "dim": "[DimCountries.CountryName]",
+                            "merged": true,
+                            "table": "DimCountries",
+                            "title": "CountryName"
+                        },
+                        "panel": "rows"
+                    },
+                    {
+                        "field": {
+                            "id": "[DimCustomer.TerritoryID]",
+                            "index": 1
+                        },
+                        "instanceid": "DFAA3-04B4-70",
+                        "jaql": {
+                            "column": "TerritoryID",
+                            "datatype": "numeric",
+                            "dim": "[DimCustomer.TerritoryID]",
+                            "table": "DimCustomer",
+                            "title": "TerritoryID"
+                        },
+                        "panel": "rows"
+                    }
+                ],
+                "name": "rows"
+            },
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[Fact_Sale_orders.OrderRevenue]_sum",
+                            "index": 3
+                        },
+                        "format": {
+                            "color": {
+                                "type": "color"
+                            },
+                            "mask": {
+                                "b": true,
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "t": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "758C4-FE46-E9",
+                        "jaql": {
+                            "agg": "sum",
+                            "column": "OrderRevenue",
+                            "datatype": "numeric",
+                            "dim": "[Fact_Sale_orders.OrderRevenue]",
+                            "table": "Fact_Sale_orders",
+                            "title": "Total OrderRevenue"
+                        },
+                        "panel": "measures"
+                    },
+                    {
+                        "disabled": true,
+                        "field": {
+                            "id": "[Fact_Purchase_Orders.PurchaseOrderID]_count",
+                            "index": 4
+                        },
+                        "format": {
+                            "color": {
+                                "type": "color"
+                            },
+                            "mask": {
+                                "b": true,
+                                "decimals": "auto",
+                                "isdefault": true,
+                                "separated": true,
+                                "t": true,
+                                "type": "number"
+                            }
+                        },
+                        "instanceid": "24A9B-F5FE-7E",
+                        "jaql": {
+                            "agg": "count",
+                            "column": "PurchaseOrderID",
+                            "datatype": "numeric",
+                            "dim": "[Fact_Purchase_Orders.PurchaseOrderID]",
+                            "table": "Fact_Purchase_Orders",
+                            "title": "# of unique PurchaseOrderID"
+                        },
+                        "panel": "measures"
+                    }
+                ],
+                "name": "values"
+            },
+            {
+                "items": [
+                    {
+                        "field": {
+                            "id": "[DimCountries.Region]",
+                            "index": 2
+                        },
+                        "instanceid": "D16BC-7EF8-2F",
+                        "jaql": {
+                            "column": "Region",
+                            "datatype": "text",
+                            "dim": "[DimCountries.Region]",
+                            "merged": true,
+                            "table": "DimCountries",
+                            "title": "Region"
+                        },
+                        "panel": "columns"
+                    }
+                ],
+                "name": "columns"
+            },
+            {
+                "items": [
+                ],
+                "name": "filters"
+            }
+        ],
+        "usedFormulasMapping": {
+        }
+    },
+    "oid": "67adf27d44d8ba0033ef3859",
+    "options": {
+        "autoUpdateOnEveryChange": true,
+        "dashboardFiltersMode": "select",
+        "drillToAnywhere": true,
+        "imageColumns": [
+        ],
+        "selector": false,
+        "selectorLocked": false,
+        "triggersDomready": true
+    },
+    "script": "./script.js",
+    "script_old": "",
+    "style": {
+        "automaticHeight": true,
+        "colors": {
+            "columns": false,
+            "headers": false,
+            "members": false,
+            "rows": true,
+            "totals": false
+        },
+        "columnsGrandTotal": true,
+        "narration": {
+            "aggregation": "sum",
+            "display": "above",
+            "enabled": false,
+            "format": "bullets",
+            "labels": [
+                {
+                    "id": "countryname",
+                    "plural": "CountryName",
+                    "singular": "CountryName",
+                    "title": "CountryName"
+                },
+                {
+                    "id": "territoryid",
+                    "plural": "TerritoryID",
+                    "singular": "TerritoryID",
+                    "title": "TerritoryID"
+                },
+                {
+                    "id": "region",
+                    "plural": "Region",
+                    "singular": "Region",
+                    "title": "Region"
+                }
+            ],
+            "up_sentiment": "good",
+            "verbosity": "medium"
+        },
+        "pageSize": 5,
+        "rowsGrandTotal": true,
+        "scroll": false
+    },
+    "subtype": "pivot2",
+    "title": "",
+    "type": "pivot2"
+}
