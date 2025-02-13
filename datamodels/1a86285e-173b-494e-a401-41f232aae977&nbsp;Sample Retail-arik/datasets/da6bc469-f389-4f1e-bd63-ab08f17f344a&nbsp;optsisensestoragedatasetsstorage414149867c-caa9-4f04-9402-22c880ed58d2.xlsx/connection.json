@@ -1,0 +1,9 @@
+{
+    "description": "",
+    "name": "Sample Retail-arik 8",
+    "oid": "7f53766d-e8a2-4935-9e37-1f11102f7d30",
+    "provider": "Excel",
+    "supportedModelTypes": [
+        "EXTRACT"
+    ]
+}

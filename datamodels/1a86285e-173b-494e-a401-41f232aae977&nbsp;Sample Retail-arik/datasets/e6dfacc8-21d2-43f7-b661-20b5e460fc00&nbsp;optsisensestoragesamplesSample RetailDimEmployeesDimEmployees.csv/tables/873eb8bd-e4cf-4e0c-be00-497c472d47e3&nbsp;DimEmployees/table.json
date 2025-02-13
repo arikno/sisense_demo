@@ -1,0 +1,82 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "displayName": "EmployeeID",
+            "hidden": true,
+            "id": "EmployeeID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "EmployeeID",
+            "oid": "6b566b67-e4fd-4c71-9bdb-8ec571838b22",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "EmployeeName",
+            "hidden": false,
+            "id": "EmployeeName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "EmployeeName",
+            "oid": "63eef6e3-0ad1-440d-ab2b-f797b8716c86",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "TeamManger",
+            "hidden": false,
+            "id": "TeamManger",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "TeamManger",
+            "oid": "15a717a2-6cf3-43ea-8b93-6cb623098c2f",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "TeamID",
+            "hidden": false,
+            "id": "TeamID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TeamID",
+            "oid": "e795a888-cc42-4aee-8da9-d78e5130681b",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "delimiter": ",",
+        "excludeIfBegins": "",
+        "excludeIfContains": "",
+        "hasHeader": true,
+        "ignoreFirstRows": "",
+        "ignoreMissingColumns": false,
+        "stringQuote": "\""
+    },
+    "dataset": "e6dfacc8-21d2-43f7-b661-20b5e460fc00",
+    "displayName": "DimEmployees",
+    "hidden": false,
+    "id": "DimEmployees.csv",
+    "isMaterialized": false,
+    "name": "DimEmployees",
+    "oid": "873eb8bd-e4cf-4e0c-be00-497c472d47e3",
+    "schemaName": "/opt/sisense/storage/samples/Sample Retail/DimEmployees/DimEmployees.csv",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

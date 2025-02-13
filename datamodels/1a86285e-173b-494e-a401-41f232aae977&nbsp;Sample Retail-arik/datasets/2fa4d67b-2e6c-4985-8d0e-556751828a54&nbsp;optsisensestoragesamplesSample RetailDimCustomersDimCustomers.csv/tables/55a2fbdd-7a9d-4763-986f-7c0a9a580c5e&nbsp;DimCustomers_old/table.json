@@ -1,0 +1,69 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "displayName": "CustomerID",
+            "hidden": false,
+            "id": "CustomerID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CustomerID",
+            "oid": "13fc0c9d-f156-4a87-b049-f2386b1b4912",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "StoreID",
+            "hidden": false,
+            "id": "StoreID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "StoreID",
+            "oid": "6c51ea2f-d48a-4667-93bc-cf61f5c9f988",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "TerritoryID",
+            "hidden": false,
+            "id": "TerritoryID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "TerritoryID",
+            "oid": "1d2a709b-bd33-4bd4-af16-992c39a20a38",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "delimiter": ",",
+        "excludeIfBegins": "",
+        "excludeIfContains": "",
+        "hasHeader": true,
+        "ignoreFirstRows": "",
+        "ignoreMissingColumns": false,
+        "stringQuote": "\""
+    },
+    "dataset": "2fa4d67b-2e6c-4985-8d0e-556751828a54",
+    "displayName": "DimCustomers_old",
+    "hidden": false,
+    "id": "DimCustomers.csv",
+    "isMaterialized": false,
+    "name": "DimCustomers_old",
+    "oid": "55a2fbdd-7a9d-4763-986f-7c0a9a580c5e",
+    "schemaName": "/opt/sisense/storage/samples/Sample Retail/DimCustomers/DimCustomers.csv",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

@@ -1,0 +1,39 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "displayName": "ActivityID",
+            "hidden": false,
+            "id": "9059e27b-b13c-4a25-b507-b78a3abfaa83",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ActivityID",
+            "oid": "361b4924-c4be-4243-b00d-04e93fd8b057",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "dataset": "4a6a0944-ad66-4254-9aad-16af48ecae02",
+    "description": null,
+    "displayName": "DimActivity",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "c17c11f8-5642-4e45-be3b-9fbd2913c294"
+    },
+    "hidden": false,
+    "id": "DimActivity",
+    "isMaterialized": null,
+    "isRoleBySystem": null,
+    "name": "DimActivity",
+    "oid": "2db9a3e0-9410-4741-af98-2cc20c9dc3c4",
+    "role": null,
+    "tags": null,
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

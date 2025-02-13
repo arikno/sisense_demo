@@ -1,0 +1,9 @@
+{
+    "description": "",
+    "name": "Sample Retail-arik (1) 7",
+    "oid": "c2de28ae-837b-48f0-8430-9eae5f1f254c",
+    "provider": "CSV",
+    "supportedModelTypes": [
+        "EXTRACT"
+    ]
+}

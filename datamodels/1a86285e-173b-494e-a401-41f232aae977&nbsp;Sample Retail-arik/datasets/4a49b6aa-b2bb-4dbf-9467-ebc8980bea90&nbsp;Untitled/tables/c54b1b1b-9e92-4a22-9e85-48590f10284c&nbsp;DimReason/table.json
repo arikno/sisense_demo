@@ -1,0 +1,39 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "displayName": "ReasonID",
+            "hidden": false,
+            "id": "2b35b7e3-2baf-4fca-9a4f-ef53fa0dce45",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ReasonID",
+            "oid": "05952381-723b-48c1-8b41-dc278e62932d",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "dataset": "4a49b6aa-b2bb-4dbf-9467-ebc8980bea90",
+    "description": null,
+    "displayName": "DimReason",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "afb4e0f7-fd85-4f27-a25e-b6af31a7f91a"
+    },
+    "hidden": false,
+    "id": "New Custom Table",
+    "isMaterialized": null,
+    "isRoleBySystem": null,
+    "name": "DimReason",
+    "oid": "c54b1b1b-9e92-4a22-9e85-48590f10284c",
+    "role": null,
+    "tags": null,
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

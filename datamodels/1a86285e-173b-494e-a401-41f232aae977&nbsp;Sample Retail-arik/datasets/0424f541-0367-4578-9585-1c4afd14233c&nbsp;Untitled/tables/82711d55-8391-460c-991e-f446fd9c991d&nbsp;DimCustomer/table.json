@@ -1,0 +1,65 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "displayName": "CustomerID",
+            "hidden": false,
+            "id": "8a6284f1-6e52-47eb-b5c4-922a7a2e4e0c",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CustomerID",
+            "oid": "3a4d3095-3c40-439e-9084-2e318aedd799",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "StoreID",
+            "hidden": false,
+            "id": "731d88aa-c845-4ada-a079-caa9d8c4a440",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "StoreID",
+            "oid": "0f24697f-06b5-4424-9d2d-ae1f8d537ce9",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "TerritoryID",
+            "hidden": false,
+            "id": "d401cc4e-e273-433e-bfaf-6774818031f8",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "TerritoryID",
+            "oid": "fa99cdd0-ac68-4bd5-b345-fe9adcb29404",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "dataset": "0424f541-0367-4578-9585-1c4afd14233c",
+    "description": null,
+    "displayName": "DimCustomer",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "67a433b5-c944-4a19-8ac7-dece26e5a8b0"
+    },
+    "hidden": false,
+    "id": "DimCustomer",
+    "isMaterialized": null,
+    "isRoleBySystem": null,
+    "name": "DimCustomer",
+    "oid": "82711d55-8391-460c-991e-f446fd9c991d",
+    "role": null,
+    "tags": null,
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

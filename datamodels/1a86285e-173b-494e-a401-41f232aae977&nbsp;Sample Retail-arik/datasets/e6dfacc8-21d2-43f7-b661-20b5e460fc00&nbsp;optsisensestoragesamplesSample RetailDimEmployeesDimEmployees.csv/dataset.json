@@ -1,0 +1,11 @@
+{
+    "connection": "./connection.json",
+    "database": "",
+    "elasticube": "1a86285e-173b-494e-a401-41f232aae977",
+    "oid": "e6dfacc8-21d2-43f7-b661-20b5e460fc00",
+    "schemaName": "/opt/sisense/storage/samples/Sample Retail/DimEmployees/DimEmployees.csv",
+    "tables": [
+        "./873eb8bd-e4cf-4e0c-be00-497c472d47e3/table.json"
+    ],
+    "type": "extract"
+}

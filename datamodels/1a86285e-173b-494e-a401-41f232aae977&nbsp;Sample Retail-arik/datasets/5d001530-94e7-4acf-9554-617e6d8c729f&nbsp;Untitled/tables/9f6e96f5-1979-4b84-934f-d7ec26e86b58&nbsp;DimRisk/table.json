@@ -1,0 +1,39 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "displayName": "RiskID",
+            "hidden": false,
+            "id": "5ec3f6a2-4bff-4ab1-ba2b-d959fed98f4a",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "RiskID",
+            "oid": "401b280b-62a9-4072-b6b3-430a6107b5cd",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "dataset": "5d001530-94e7-4acf-9554-617e6d8c729f",
+    "description": null,
+    "displayName": "DimRisk",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "ab2fa638-aa94-4b8b-8146-f87da9776bb3"
+    },
+    "hidden": false,
+    "id": "DimRisk",
+    "isMaterialized": null,
+    "isRoleBySystem": null,
+    "name": "DimRisk",
+    "oid": "9f6e96f5-1979-4b84-934f-d7ec26e86b58",
+    "role": null,
+    "tags": null,
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

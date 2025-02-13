@@ -1,0 +1,322 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "displayName": "CountryCode",
+            "hidden": true,
+            "id": "CountryCode",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CountryCode",
+            "oid": "ed73988c-79f6-4f10-8ee4-ead830930d76",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "CountryName",
+            "hidden": true,
+            "id": "CountryName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CountryName",
+            "oid": "e3eeed84-333e-4d4a-b678-c514d0cc1f43",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "CustomerID",
+            "hidden": true,
+            "id": "CustomerID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CustomerID",
+            "oid": "b45dba05-6ccb-422a-b3dd-a4e9de761e88",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "EmployeeID",
+            "hidden": true,
+            "id": "EmployeeID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "EmployeeID",
+            "oid": "b13d913f-1ad8-4709-a9aa-17317d5c1a75",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "Freight",
+            "hidden": false,
+            "id": "Freight",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Freight",
+            "oid": "6c591d68-854b-4ff1-a439-d29155b21602",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "displayName": "OnlineOrderFlag",
+            "hidden": false,
+            "id": "OnlineOrderFlag",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "OnlineOrderFlag",
+            "oid": "1210fe7f-92a7-4748-b92e-bca5efa27261",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "OrderDate",
+            "hidden": true,
+            "id": "OrderDate",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OrderDate",
+            "oid": "0fe096c8-bda5-477d-8da0-51b185d47025",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 4
+        },
+        {
+            "displayName": "OrderQty",
+            "hidden": false,
+            "id": "OrderQty",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OrderQty",
+            "oid": "b39d9011-0db6-4ca8-8452-316284bc74ed",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "OrderRevenue",
+            "hidden": false,
+            "id": "OrderRevenue",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "OrderRevenue",
+            "oid": "30b21d04-78e7-4a9e-9420-de333c9a05fc",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "displayName": "ProductID",
+            "hidden": true,
+            "id": "ProductID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "ProductID",
+            "oid": "8d98d8f6-1fb2-457e-a39c-aa67ad6b6fe5",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "Region",
+            "hidden": false,
+            "id": "Region",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Region",
+            "oid": "1b43462f-bd25-45f3-976a-07b7f13be0c9",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "SalesOrderID",
+            "hidden": false,
+            "id": "SalesOrderID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "SalesOrderID",
+            "oid": "e44df475-32a6-49db-a2ee-34f53ae6ea1e",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "UnitPrice",
+            "hidden": false,
+            "id": "UnitPrice",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "UnitPrice",
+            "oid": "969acb4e-5d69-4d25-981f-a10064f6d93c",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        },
+        {
+            "displayName": "UnitPriceDiscount",
+            "hidden": false,
+            "id": "UnitPriceDiscount",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "UnitPriceDiscount",
+            "oid": "5fa9695a-f514-4d64-b6b5-f1c247b02d09",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "delimiter": ",",
+        "excludeIfBegins": "",
+        "excludeIfContains": "",
+        "hasHeader": true,
+        "ignoreFirstRows": "",
+        "ignoreMissingColumns": false,
+        "stringQuote": "\""
+    },
+    "dataset": "a7c02dbe-d19d-4b48-ad68-7be078ccb8ea",
+    "displayName": "Fact_Sale_orders",
+    "hidden": false,
+    "id": "Fact_Sale_orders.csv",
+    "isMaterialized": false,
+    "name": "Fact_Sale_orders",
+    "oid": "dae69cfd-891c-4ca1-a062-333f4178e908",
+    "schemaName": "/opt/sisense/storage/samples/Sample Retail/Fact_Sale_orders/Fact_Sale_orders.csv",
+    "tupleTransformations": [
+        {
+            "arguments": {
+                "displayName": "key",
+                "expression": {
+                    "expression": "tostring([CountryCode]) + '_' + \ntostring([EmployeeID]) + '_' + \ntostring([ProductID]) + '_' + \ntostring([CustomerID]) \n",
+                    "isDatabaseDialect": false,
+                    "oid": "f3daaa1c-535f-4171-ad67-ac4c6b3811f1"
+                },
+                "hidden": false,
+                "id": "key",
+                "indexed": true,
+                "isUpsertBy": false,
+                "lastUpdated": "2024-08-09T08:29:12.000Z",
+                "name": "key",
+                "oid": "088238d5-d6cf-40c0-8f64-171627835f89",
+                "precision": 0,
+                "scale": 0,
+                "size": 0,
+                "type": 18
+            },
+            "type": "add-column"
+        },
+        {
+            "arguments": {
+                "displayName": "RiskID",
+                "expression": {
+                    "expression": "toint(rand())",
+                    "isDatabaseDialect": false,
+                    "oid": "7c5fe9f5-6eef-4656-94c0-b2829769d425"
+                },
+                "hidden": false,
+                "id": "RiskID",
+                "indexed": true,
+                "isUpsertBy": false,
+                "lastUpdated": "2024-08-20T08:28:56.241Z",
+                "name": "RiskID",
+                "oid": "2a073366-b219-47bb-b4f1-23891961da13",
+                "precision": 0,
+                "scale": 0,
+                "size": 0,
+                "type": 8
+            },
+            "type": "add-column"
+        },
+        {
+            "arguments": {
+                "displayName": "ActivityID",
+                "expression": {
+                    "expression": "toint(rand())",
+                    "isDatabaseDialect": false,
+                    "oid": "e617a465-dc11-4a49-b637-d22f66cc4bdf"
+                },
+                "hidden": false,
+                "id": "ActivityID",
+                "indexed": true,
+                "isUpsertBy": false,
+                "lastUpdated": "2024-08-20T08:31:14.920Z",
+                "name": "ActivityID",
+                "oid": "818f9f02-fe0f-4123-b764-bd114e0992d4",
+                "precision": 0,
+                "scale": 0,
+                "size": 0,
+                "type": 8
+            },
+            "type": "add-column"
+        },
+        {
+            "arguments": {
+                "displayName": "RuleID_FakeKey",
+                "expression": {
+                    "expression": "toint(-1)",
+                    "isDatabaseDialect": false,
+                    "oid": "a7a47c7b-ba24-441b-9d2a-f2866b10d516"
+                },
+                "hidden": false,
+                "id": "RuleID_FakeKey",
+                "indexed": true,
+                "isUpsertBy": false,
+                "lastUpdated": "2024-08-20T08:32:11.585Z",
+                "name": "RuleID_FakeKey",
+                "oid": "5cf45bd6-9f38-417d-9d05-f5d0b2bec254",
+                "precision": 0,
+                "scale": 0,
+                "size": 0,
+                "type": 8
+            },
+            "type": "add-column"
+        },
+        {
+            "arguments": {
+                "displayName": "ReasonID_FakeKey",
+                "expression": {
+                    "expression": "toint(-1)",
+                    "isDatabaseDialect": false,
+                    "oid": "853923d4-03f8-4969-991e-4ea107a6ef84"
+                },
+                "hidden": false,
+                "id": "ReasonID_FakeKey",
+                "indexed": true,
+                "isUpsertBy": false,
+                "lastUpdated": "2024-08-20T08:32:47.914Z",
+                "name": "ReasonID_FakeKey",
+                "oid": "42f8bc73-4045-423d-9d1e-2ca58a777021",
+                "precision": 0,
+                "scale": 0,
+                "size": 0,
+                "type": 8
+            },
+            "type": "add-column"
+        }
+    ],
+    "type": "base"
+}

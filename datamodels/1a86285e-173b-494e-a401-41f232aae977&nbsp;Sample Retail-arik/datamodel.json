@@ -1,0 +1,50 @@
+{
+    "analyticalEngine": {
+    },
+    "buildDestination": {
+        "database": null,
+        "destination": "elasticube"
+    },
+    "datamodelId": "1a86285e-173b-494e-a401-41f232aae977",
+    "datasets": [
+        "./041f96d0-3086-4fee-a72d-4b5398163cf8/dataset.json",
+        "./0424f541-0367-4578-9585-1c4afd14233c/dataset.json",
+        "./26c64d94-7b3e-4afe-975b-8b2ee0c8016d/dataset.json",
+        "./2fa4d67b-2e6c-4985-8d0e-556751828a54/dataset.json",
+        "./33e1ea87-60ee-4374-9700-4e668b97139d/dataset.json",
+        "./4a49b6aa-b2bb-4dbf-9467-ebc8980bea90/dataset.json",
+        "./4a6a0944-ad66-4254-9aad-16af48ecae02/dataset.json",
+        "./5d001530-94e7-4acf-9554-617e6d8c729f/dataset.json",
+        "./a7c02dbe-d19d-4b48-ad68-7be078ccb8ea/dataset.json",
+        "./c4d0bc66-126a-4e24-932a-1c6a6a0779af/dataset.json",
+        "./da6bc469-f389-4f1e-bd63-ab08f17f344a/dataset.json",
+        "./dfadd9fa-326d-4cd3-9ebc-4bf9a50637db/dataset.json",
+        "./e6dfacc8-21d2-43f7-b661-20b5e460fc00/dataset.json",
+        "./f2e29fdf-07de-42ba-bb61-b8fdf2d2a836/dataset.json"
+    ],
+    "dependencies": {
+        "perspectives": [
+            "./1a86285e-173b-494e-a401-41f232aae977/perspective.json"
+        ]
+    },
+    "experiments": {
+    },
+    "fiscal": "system",
+    "hierarchies": [
+    ],
+    "modelStatistics": {
+        "allTablesPerCollection": true,
+        "enableModelStatistics": false,
+        "maxTablesPerCollection": null,
+        "recollectStatsInterval": null
+    },
+    "oid": "1a86285e-173b-494e-a401-41f232aae977",
+    "relationType": "regular",
+    "relations": "./relations.json",
+    "relationsTables": [
+    ],
+    "schemaId": null,
+    "strikeBuildFailures": 0,
+    "title": "Sample Retail-arik",
+    "type": "extract"
+}

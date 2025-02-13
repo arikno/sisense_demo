@@ -1,0 +1,91 @@
+{
+    "buildBehavior": {
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "displayName": "key",
+            "hidden": false,
+            "id": "d4126215-d566-430a-bfaf-55e390901c72",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "key",
+            "oid": "3cf184dd-cbe1-4eed-b8a4-c794dc4b5bf8",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "CountryCode",
+            "hidden": false,
+            "id": "e9ed262c-1c28-4db8-b914-784eb01ad4de",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CountryCode",
+            "oid": "c8a8fb0f-59ec-412e-a8e4-b892e8bc42c8",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "EmployeeID",
+            "hidden": false,
+            "id": "5f820f47-97e6-4aa5-921b-bf729ddd680c",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "EmployeeID",
+            "oid": "4dd0b1e0-b4e4-4820-9ec8-f9b20679e94b",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "ProductID",
+            "hidden": false,
+            "id": "6cd24072-4c06-47f1-885a-4cf7876c0feb",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ProductID",
+            "oid": "ddb5cf38-89ba-425f-85eb-c24fda62a242",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "CustomerID",
+            "hidden": false,
+            "id": "8ad7437f-5cff-4eca-b5d1-0b44bca9f664",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CustomerID",
+            "oid": "019442f0-7317-4c63-a6c5-a2258a1f720b",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        }
+    ],
+    "dataset": "dfadd9fa-326d-4cd3-9ebc-4bf9a50637db",
+    "description": null,
+    "displayName": "Key_table",
+    "expression": {
+        "expression": "./table.sql",
+        "isDatabaseDialect": false,
+        "oid": "a80d5382-5b05-4a9d-a462-14bf99492eee"
+    },
+    "hidden": false,
+    "id": "Key_table",
+    "isMaterialized": null,
+    "isRoleBySystem": null,
+    "name": "Key_table",
+    "oid": "4554db1a-2020-452a-9ef5-6c191477758b",
+    "role": null,
+    "tags": null,
+    "tupleTransformations": [
+    ],
+    "type": "custom"
+}

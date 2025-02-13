@@ -1,0 +1,1 @@
+"select p.[key], p.[CountryCode], p.[EmployeeID], p.[ProductID], toint(null) as CustomerID\nfrom [Fact_Purchase_Orders] p\nunion\nselect s.[key], s.[CountryCode], s.[EmployeeID], s.[ProductID], s.[CustomerID]\nfrom [Fact_Sale_orders] s"

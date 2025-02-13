@@ -1,0 +1,108 @@
+{
+    "buildBehavior": {
+        "accumulativeConfig": null,
+        "type": "sync"
+    },
+    "columns": [
+        {
+            "displayName": "Product ID",
+            "hidden": true,
+            "id": "Product ID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Product ID",
+            "oid": "08046559-606a-4787-be84-d93cff42ea30",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "CategoryName",
+            "hidden": false,
+            "id": "CategoryName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "CategoryName",
+            "oid": "3d319b30-2304-4bce-b3e7-b1cda156face",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "Color",
+            "hidden": false,
+            "id": "Color",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "Color",
+            "oid": "cc720e78-f0f9-4e13-b65c-e45d0ce6db21",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "ProductName",
+            "hidden": false,
+            "id": "ProductName",
+            "indexed": true,
+            "isUpsertBy": false,
+            "name": "ProductName",
+            "oid": "32fb8c3a-8b6a-4456-bd6b-414ee25e5c2a",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 18
+        },
+        {
+            "displayName": "CategoryID",
+            "hidden": false,
+            "id": "CategoryID",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "CategoryID",
+            "oid": "22325ef7-3609-4217-ba19-fa0b37f102a3",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 8
+        },
+        {
+            "displayName": "Price",
+            "hidden": false,
+            "id": "Price",
+            "indexed": false,
+            "isUpsertBy": false,
+            "name": "Price",
+            "oid": "29661507-abbc-477b-b302-c94a07fd1f7e",
+            "precision": 0,
+            "scale": 0,
+            "size": 0,
+            "type": 5
+        }
+    ],
+    "configOptions": {
+        "columnsDateTimePatterns": "{}",
+        "culture": "en-US",
+        "delimiter": ",",
+        "excludeIfBegins": "",
+        "excludeIfContains": "",
+        "hasHeader": true,
+        "ignoreFirstRows": "",
+        "ignoreMissingColumns": false,
+        "stringQuote": "\""
+    },
+    "dataset": "041f96d0-3086-4fee-a72d-4b5398163cf8",
+    "displayName": "DimProducts",
+    "hidden": false,
+    "id": "DimProducts.csv",
+    "isMaterialized": false,
+    "name": "DimProducts",
+    "oid": "b7122110-404e-40b4-805f-cc7926c4dd86",
+    "schemaName": "/opt/sisense/storage/samples/Sample Retail/DimProducts/DimProducts.csv",
+    "tupleTransformations": [
+    ],
+    "type": "base"
+}

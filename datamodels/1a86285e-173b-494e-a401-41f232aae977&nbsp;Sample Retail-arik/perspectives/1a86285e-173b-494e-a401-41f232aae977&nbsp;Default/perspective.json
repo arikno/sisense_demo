@@ -1,0 +1,12 @@
+{
+    "datamodelOid": "1a86285e-173b-494e-a401-41f232aae977",
+    "description": "",
+    "isDefault": true,
+    "name": "Default",
+    "oid": "1a86285e-173b-494e-a401-41f232aae977",
+    "parentOid": null,
+    "relationsTables": [
+    ],
+    "tables": [
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "connection": "./connection.json",
+    "database": "",
+    "elasticube": "1a86285e-173b-494e-a401-41f232aae977",
+    "oid": "c4d0bc66-126a-4e24-932a-1c6a6a0779af",
+    "schemaName": "/opt/sisense/storage/samples/Sample Retail/Fact_Purchase_Orders/Fact_Purchase_Orders.csv",
+    "tables": [
+        "./514fdc4d-cf07-42fe-b8e0-5aa8c7b3be68/table.json"
+    ],
+    "type": "extract"
+}
